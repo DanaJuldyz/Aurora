@@ -8,6 +8,7 @@ urlpatterns = [
     path('addservice/', addservice, name='create'),
     path('contact/', contact, name='contact'),
     path('contact/', login, name='login'),
+    path('service/int:<s_id>/', show_service, name='show_service')
 ]
 
 

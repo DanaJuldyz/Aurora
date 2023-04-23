@@ -1,6 +1,7 @@
 from django.shortcuts import render
 
 
+menu
 def index(request):
     return render(request, 'tour/content/index.html')
 
@@ -21,3 +22,5 @@ def addservice(request):
     pass
 def contact(request):
     pass
+def show_service(request):
+    return render(request, 'tour/content/show.html',)
