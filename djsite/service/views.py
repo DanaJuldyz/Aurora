@@ -15,3 +15,9 @@ def page_not_found(request,exception):
     return render(request, 'tour/content/error404.html', {})
 def server_error(request,exception=None):
     return render(request,'tour/content/error500.html',{})
+def login(request):
+    pass
+def addservice(request):
+    pass
+def contact(request):
+    pass

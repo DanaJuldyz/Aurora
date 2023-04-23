@@ -4,9 +4,10 @@ from django.conf.urls import handler400, handler403, handler404, handler500
 from.views import *
 urlpatterns = [
     path('', index, name='home'),
-    path('about/', about, name='about')
-    path('addservice/', addservice, name='create')
-    path('contact/', contact, name='contact')
+    path('about/', about, name='about'),
+    path('addservice/', addservice, name='create'),
+    path('contact/', contact, name='contact'),
+    path('contact/', login, name='login'),
 ]
 
 
